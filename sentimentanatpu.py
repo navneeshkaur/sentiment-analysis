@@ -7,11 +7,11 @@ Created on Thu Nov  1 11:38:42 2018
 import tweepy
 
 from textblob import TextBlob
-consumerkey='buS3ogq0ju3gz2M4cQIFvwtfh'
-consumersecret='jrA9NjY8lgeVj6Tai2LEfrKMWAuWPneVH5SOiY7BiQA2bVBxAX '
+consumerkey='consumer_key'
+consumersecret='consumer_secret '
 
-accesstoken='1057859228533121024-CYHH7EK3R6Bnzel4AHafjNl6ZSgXZb'
-accesstokensecret='nNQLMYQpRBafYKfnntScsFXWQl3v5r8RpRCOPg2v9qmWr'
+accesstoken='access_token'
+accesstokensecret='access_token_secret'
 auth = tweepy.OAuthHandler(consumerkey, consumersecret)
 auth.set_access_token(accesstoken, accesstokensecret)
 api=tweepy.API(auth)
